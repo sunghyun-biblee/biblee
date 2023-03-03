@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Itim&display=swap");
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KOTRAHOPE";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GangwonEdu_OTFBoldA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: sans-serif;
+  color: rgb(10, 101, 124);
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+}
+li {
+  margin-top: 10px;
+}
+ul {
+  list-style: none;
+}
+
+button {
+  padding-left: 20px;
+  font-size: 25px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+
+  outline: none;
+  text-align: center;
+  background-color: transparent;
+  opacity: 0.6;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 24px;
+}
+#clock {
+  padding: 20px 10px;
+  font-family: "GmarketSansMedium";
+  word-spacing: 7px;
+  font-size: 28px;
+}
+#todoform {
+  display: flex;
+  justify-content: center;
+}
+#todoform input {
+  width: 330px;
+  font-size: 25px;
+  font-family: "GmarketSansMedium";
+  border-bottom: 1px solid rgb(10, 101, 124);
+}
+#plusscss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#todocss span {
+  font-family: "GmarketSansMedium";
+  font-size: 30px;
+  /* font-family: "GangwonEdu_OTFBoldA"; */
+}
+#weather {
+  margin: 50px 10px;
+  font-family: "GmarketSansMedium";
+  font-size: 30px;
+}
+#loginform :first-child {
+  width: 270px;
+  border-bottom: 3px solid gray;
+  font-family: "GmarketSansMedium";
+  font-size: 30px;
+}
+#loginform :last-child {
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  outline: 1px solid gray;
+  padding: 10px;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: "GmarketSansMedium";
+}
+.Login {
+  margin-top: 200px;
+  font-size: 22px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}
+.listcss {
+  text-align: center;
+}
+.First {
+  display: flex;
+  justify-content: space-between;
+}
+.First span:last-child {
+  margin: 5px;
+  padding-right: 20px;
+}
+
+h1 {
+  font-family: "GmarketSansMedium";
+}

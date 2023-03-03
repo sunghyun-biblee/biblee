@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Last Challenges</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle&family=Itim&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="First">
+      <h1 id="clock">00:00:00</h1>
+      <div id="weather">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div id="pluscss">
+      <div class="Login">
+        <form id="loginform" class="hidden">
+          <input
+            type="text"
+            required
+            minlength="1"
+            maxlength="9"
+            placeholder="Wrtie your name!"
+          />
+          <input type="submit" value="Login" />
+        </form>
+        <h1 id="welcom" class="hidden"></h1>
+      </div>
+    </div>
+    <div id="todocss">
+      <form id="todoform">
+        <input
+          type="text"
+          class="hidden"
+          id="speical"
+          placeholder="write your Today list 📝"
+          maxlength="13"
+        />
+      </form>
+      <div class="listcss">
+        <ul id="todolist"></ul>
+      </div>
+    </div>
+  </body>
+  <script src="clock.js"></script>
+  <script src="login.js"></script>
+  <script src="todolist.js"></script>
+  <script src="randomimg.js"></script>
+  <script src="weather.js"></script>
+</html>
