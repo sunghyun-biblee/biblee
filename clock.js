@@ -3,7 +3,7 @@ const clock = document.getElementById("clock");
 function startClock() {
   const time = new Date();
   const years = time.getFullYear();
-  const month = time.getMonth();
+  const month = time.getMonth() + 1;
   const day = String(time.getDay()).padStart(2, 0);
   const hours = String(time.getHours()).padStart(2, 0);
   const minutes = String(time.getMinutes()).padStart(2, 0);
